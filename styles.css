@@ -1,0 +1,74 @@
+h1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+p {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+}
+
+.main-converter {
+    width: 60%;
+    margin-inline: auto;
+    background-color: antiquewhite;
+}
+
+.container {
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-inline: auto;
+    gap: 15px;    
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-converter input, 
+select, 
+button {
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.main-converter label {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.main-converter input {
+    padding: 10px;
+    border-radius: 5px;
+    border: transparent;
+}
+.main-converter select {
+    padding: 10px;
+    border-radius: 5px;
+    border: transparent;
+}
+.container button {
+    width: 50%;
+    padding: 10px;
+    margin-inline: auto;
+    border-radius: 5px;
+    border: transparent;
+    cursor: pointer;
+}
+.container button:hover {
+    color: white;
+    background-color: brown;
+    border-radius: 10px;
+    transition: .4s;
+}
+.container textarea {
+    height: 30px;
+    text-align: center;
+    font-family: inherit;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 5px;
+    border: transparent;
+    resize: none;
+}
